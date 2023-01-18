@@ -9,7 +9,7 @@ from helper_funcs.helpers import humanbytes, convert
 
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5988567991:AAE2M5PpcxpFpeXU3T1M7BeMoywJBAvyVSc")
 
-APP_ID = int(os.environ.get("APP_ID", ""))
+APP_ID = int(os.environ.get("APP_ID", "3f0136ab75eaa468e7b5f3020be17588"))
 
 API_HASH = os.environ.get("API_HASH", "")
 
