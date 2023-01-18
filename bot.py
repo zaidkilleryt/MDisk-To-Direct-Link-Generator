@@ -9,9 +9,9 @@ from helper_funcs.helpers import humanbytes, convert
 
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5988567991:AAE2M5PpcxpFpeXU3T1M7BeMoywJBAvyVSc")
 
-APP_ID = int(os.environ.get("APP_ID", "3f0136ab75eaa468e7b5f3020be17588"))
+APP_ID = int(os.environ.get("APP_ID", "17318541"))
 
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", "3f0136ab75eaa468e7b5f3020be17588")
 
 
 app = Client("mdisk", bot_token=TG_BOT_TOKEN, api_hash=API_HASH, api_id=APP_ID)
