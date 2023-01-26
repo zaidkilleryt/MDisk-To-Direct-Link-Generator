@@ -1,9 +1,7 @@
 #### Give a Star and Fork the Repo for further use
 
-### MDiskDownloadLinkBot
 ---
 A telegram bot which converts MDisk links to Direct Download Link, without installing MX Player (Bypass mdisk requirements).
----
 
 ### Required Variables
 
