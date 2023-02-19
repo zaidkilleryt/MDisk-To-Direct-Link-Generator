@@ -19,7 +19,7 @@ app = Client("mdisk", bot_token=TG_BOT_TOKEN, api_hash=API_HASH, api_id=APP_ID)
 
 @app.on_message(filters.command(['start']))
 async def start(client, message):
-    await message.reply_text(text=f"Hello 👋\n\nSend me a MDisk link to generate Direct Download Link", reply_to_message_id=message.message_id)
+    await message.reply_text(text=f"Hello 👋\n\nSend Me MDisk Link To Convert TG File Owner @iaszaidyt", reply_to_message_id=message.message_id)
 
 
 @app.on_message(filters.private & filters.text)
@@ -28,13 +28,13 @@ async def link_extract(bot, message):
     
     if not message.text.startswith("https://mdisk.me"):
         await message.reply_text(
-            f"**INVALID LINK**",
+            f"**SAHI LINK DAALO BE**",
             reply_to_message_id=message.message_id
         )
         return
     a = await bot.send_message(
             chat_id=message.chat.id,
-            text=f"Processing…",
+            text=f"Kaam Chal Raha Hai…",
             reply_to_message_id=message.message_id
         )
     inp = urls #input('Enter the Link: ')
