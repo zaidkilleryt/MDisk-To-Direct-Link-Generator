@@ -7,7 +7,7 @@ from pyrogram import Client, filters
 from helper_funcs.helpers import humanbytes, convert
 
 
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6285663797:AAEyojr5Lg89jZp6pUigXaapISkwdJUUwrw")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6052188202:AAHd4bOP312rjWkvoBn0mnUcy2rRG4mtPrA")
 
 APP_ID = int(os.environ.get("APP_ID", "28441118"))
 
